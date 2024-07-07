@@ -1,0 +1,14 @@
+.temperature-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.temperature-value {
+  font-size: 2rem;
+  color: #000000;
+}
