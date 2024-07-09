@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/box/index.css";
 
-interface TemperatureDisplayProps {
+type TemperatureDisplayProps = {
   temperature: number;
 }
 
