@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/buttons/index.css";
 
-interface TemperatureButtonsProps {
+type TemperatureButtonsProps = {
   onIncrease: () => void;
   onDecrease: () => void;
 }
