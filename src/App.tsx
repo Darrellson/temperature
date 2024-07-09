@@ -1,9 +1,9 @@
 import './components/styles/index/index.css';
-import TemperatureDisplay from './components/loading/TemperatureDisplay';
+import TemperatureDisplay from './components/Display/TemperatureDisplay';
 import TemperatureButtons from './components/buttons/TemperatureButtons';
 import useTemperature from './components/hooks/index';
 
-const App: React.FC = () => {
+const App = () => {
   const { temperature, increaseTemperature, decreaseTemperature } = useTemperature();
 
   return (
